@@ -16,7 +16,7 @@ ul {
 
 
 a {
-    color: rgb(45, 194, 199);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 25px;   
     
@@ -29,10 +29,11 @@ a {
     justify-content: space-between;
     padding:20px;
     align-items: center;
+    background: rgb(177 177 177 / 23%);
 }
 
 .header :hover{
-    color: white;
+    color: rgb(45, 194, 199);
 
 }
 
@@ -54,9 +55,10 @@ a {
     justify-content: center;
 }
 
-img{
+.logo{
     height: 80px;
     width:  200px;
+    color: white;
 }
 
 .main{
@@ -78,6 +80,7 @@ img{
     color: rgb(45, 194, 199);
     margin-top: 22%;
 }
+
 
 strong{
     color: rgb(65, 231, 24);
