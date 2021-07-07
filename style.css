@@ -7,7 +7,8 @@
 body{
     background-image: url(./imagens/background.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    min-height: 90vh;
 }
 
 ul {
@@ -23,17 +24,25 @@ a {
 }
 
 .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding:20px;
-    align-items: center;
+    transition: 0.6s;
+    padding: 20px 100px;
+    z-index: 100000;
     background: rgb(0 0 0 / 38%);
+}
+
+.heraderMudaCor{
+    background-color: rgba(0, 0, 0, 0.89);
 }
 
 .header :hover{
     color: rgb(45, 194, 199);
-
 }
 
 .menu{
@@ -41,6 +50,7 @@ a {
     border: 1px solid white;
     border-radius: 10px;
     font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
 }
 
 .menu li{
@@ -54,6 +64,7 @@ a {
 .menu ul{
     justify-content: center;
 }
+
 
 .logo{
     height: 80px;
@@ -78,7 +89,7 @@ a {
     font-family: 'Comfortaa', cursive;
     display: flex;
     color: rgb(45, 194, 199);
-    margin-top: 22%;
+    margin-top: 30%;
 }
 
 
